@@ -95,6 +95,24 @@ ul{
 li{
   margin-left: 20px;
 }
-
+article{
+  width: 700px;
+}
+.post-title{
+  font-size: 40px;
+  color: #033048;
+  font-weight: 600;
+}
+article p{
+  font-size: 24px;
+  font-weight: 300;
+}
+article div{
+  font-size: 24px;
+  font-weight: 600;
+}
+aside{
+  width: 240px;
+}
 
 
