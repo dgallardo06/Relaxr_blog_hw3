@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr
+Client: FEWD 13
+Author: Denise Gallardo
+Developer @GA in ATL
 */
 
 
@@ -77,11 +77,12 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+/******************* NAV *******************/
 .logo{
-  font-size: 30px;
+  font-size: 40px;
   color: white;
   font-weight: 800;
-  margin-left: 50px;
+  margin-left: 200px;
 }
 nav{
   font-size: 24px;
@@ -89,13 +90,13 @@ nav{
 }
 ul{
   margin: 0;
-  padding-top: 20px;
-  padding-right: 50px;
+  padding-top: 40px;
+  padding-right: 210px;
 }
 li{
-  margin-left: 20px;
+  margin-left: 40px;
 }
-/*Main Body Styling*/
+/******** Main Body Styling ****************/
 article{
   width: 700px;
 }
@@ -103,6 +104,15 @@ article{
   font-size: 40px;
   color: #033048;
   font-weight: 600;
+}
+.read-more{
+  margin-bottom: 30px;
+}
+.underline{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  float: left;
+  margin-bottom: 50px;
 }
 article p{
   font-size: 24px;
@@ -120,7 +130,7 @@ article div{
   font-weight: 600;
   color: #033048;
 }
-/*Right Side Bar Styling*/
+/*********** Aside Styling *********/
 aside{
   width: 240px;
 }
@@ -134,6 +144,11 @@ ol{
   font-weight: 300;
   list-style: none;
   color: #033048;
+  padding: 0px;
+  margin-top: 0px;
+}
+ol li{
+  margin: 0px;
 }
 aside{
   color: #033048;
@@ -141,14 +156,20 @@ aside{
 aside p{
   font-size: 22px;
   font-weight: 300;
+  margin: 0px;
 }
 aside div{
   font-size: 22px;
   font-weight: 600;
 }
+aside img{
+  margin-top: 30px;
+}
 /*Footer*/
 .sign-up{
   background-color: #f9e42e;
+  height: 100px;
+  padding: 30px 0px 0px 370px;
 }
 button{
   font-size: 12px;
@@ -157,7 +178,31 @@ button{
   border: none;
   background-color: #033048; 
   color: white;
+  height: 40px;
+  width: 220px;
+}
+.footer-logo{
+  color: #f9e42e;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+.social-media{
+ padding: 0px 445px;
+}
+.social-media img{
+  height: 20px;
+}
+.twitter{
+  padding-right: 25px;
 }
 .copyright{
+  font-weight: 600;
+  font-size: 12px;
   color: white;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 25px;
 }
